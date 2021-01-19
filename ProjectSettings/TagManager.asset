@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cnavas
+  - Manager
+  - Start
+  - C4Route1
+  - C4Route3
+  - CRoute1
+  - SRoute2
+  - C2Route2
+  - C3Route1
+  - C4Route2
+  - CRoute3
+  - C2Route1
+  - C2Route3
+  - SRoute3
+  - C3Route3
+  - C3Route2
+  - CRoute2
+  - SRoute1
+  - Guard
+  - Rune
+  - Dice
+  - Stage
+  - EnemyAttack
+  - PlayerAttack
+  - Rhino
+  - Skill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 2379646727
+    locked: 0
+  - name: Fore
+    uniqueID: 3070758301
+    locked: 0

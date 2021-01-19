@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2913918207633944394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2913918207633944404}
+  - component: {fileID: 2913918207633944405}
+  m_Layer: 0
+  m_Name: Itembuffer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2913918207633944404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2913918207633944394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1011.80493, y: 379.10995, z: -115.1897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2913918207633944405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2913918207633944394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286c6f320991f794896e2f0781430e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - Name: RUNE_DEFEND+
+    sprite: {fileID: 21300000, guid: eb5f20133f26109429510dca1e94b7a2, type: 3}
+    gold: 280
+  - Name: RUNE_COUNTER
+    sprite: {fileID: 21300000, guid: 88e86ebbbd976c949a569ee912f08bad, type: 3}
+    gold: 340
+  - Name: RUNE_HEAL
+    sprite: {fileID: 21300000, guid: 7b175a5768b9b2d4582da3fe3f7fa4df, type: 3}
+    gold: 480
+  - Name: RUNE_IRON_SKIN
+    sprite: {fileID: 21300000, guid: f745a2760e5a654469c5dc0adc6e1e6f, type: 3}
+    gold: 280
+  - Name: RUNE_PROVOKE
+    sprite: {fileID: 21300000, guid: 396489563a5c57c47bf54e068be49b51, type: 3}
+    gold: 360
+  - Name: RUNE_STRIKE
+    sprite: {fileID: 21300000, guid: 2e574b7855d73cb4dbf51174508e7f67, type: 3}
+    gold: 320
+  - Name: RUNE_CRITICAL
+    sprite: {fileID: 21300000, guid: b132af316b93e244e91f76bc8b41ab93, type: 3}
+    gold: 480
+  - Name: RUNE_ENCHANT
+    sprite: {fileID: 21300000, guid: b66fbdae96a40644fb1616fc7f7b9aaf, type: 3}
+    gold: 650
+  - Name: RUNE_ENDURE
+    sprite: {fileID: 21300000, guid: ed567d1c30a1a914fb7cc8f558f19d92, type: 3}
+    gold: 860
+  - Name: RUNE_KILL
+    sprite: {fileID: 21300000, guid: 5a155627a6fdb4b4c92030f5eb43705e, type: 3}
+    gold: 860
+  - Name: RUNE_NEUTRALIZE
+    sprite: {fileID: 21300000, guid: 79a6e66da7f751e4daf93f267d9e55c5, type: 3}
+    gold: 790
+  - Name: RUNE_RAGE
+    sprite: {fileID: 21300000, guid: aa5ae42e9b9355549b06b87e9ba412ab, type: 3}
+    gold: 1280
+  Dice:
+  - Name: FAST_DICE
+    sprite: {fileID: 21300000, guid: 139cbdd0ca69d2c42aef1ff8240dd941, type: 3}
+    gold: 180
+  - Name: GOLD_DICE
+    sprite: {fileID: 21300000, guid: ab700d2cf7ef82741a1f69d0864a5596, type: 3}
+    gold: 300
+  - Name: HALF_DICE
+    sprite: {fileID: 21300000, guid: 981bd99c654b6c149ac6a189e4a0ae00, type: 3}
+    gold: 230
+  - Name: HEAL_DICE
+    sprite: {fileID: 21300000, guid: 8365b6419b85fc04289b1b3c8d366d77, type: 3}
+    gold: 230
+  - Name: GOLDEN_DICE
+    sprite: {fileID: 21300000, guid: 30cdf29ea2d9edc4a980c4779a2d6212, type: 3}
+    gold: 1000
+  - Name: UNLUCKY_DICE
+    sprite: {fileID: 21300000, guid: 6a6188bd6d71adf4a960e80a79ccfd30, type: 3}
+    gold: 999
